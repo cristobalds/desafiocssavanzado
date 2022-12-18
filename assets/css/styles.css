@@ -1,0 +1,100 @@
+.menu {
+    display: flex;
+    width: 100%;
+}
+
+.contactos {
+    flex-basis: 20%;
+    height: 100vh;
+    min-width: 340px;
+    overflow-y: auto;
+}
+
+.menu-perfil {
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 35px;
+}
+
+.imgperfil {
+    width: 70px;
+    height: 70px;
+    border-radius: 150px;
+}
+
+.menu-perfil .info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+i {
+    padding: 10px;
+}
+
+.estado {
+    color: green;
+}
+
+.nuevochat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 11px 30px;
+}
+
+.nuevochat .boton-nuevochat {
+    width: 100%;
+    background-color: #cc78b7;
+    font-weight: bold;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 6px;
+}
+
+.listacontactos ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactos ul li {
+    display: flex;
+    border-top: 2px solid rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.mano{
+    height: 300px;
+    width: 300px;
+}
+
+.chat{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat .instrucciones{
+    border-radius: 16px;
+    width: 50%;
+    min-width: 350px;  
+    text-align: center;
+    padding: 35px;
+}
+
+.chat .instrucciones h1{
+    font-size: 27px;
+    margin-bottom: 12px;
+}
